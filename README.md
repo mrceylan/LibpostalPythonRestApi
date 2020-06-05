@@ -14,13 +14,13 @@ API is created in Python with flask.
 Firstly we create the docker image 
 
 ```sh
-$ docker build -t fridaychallenge . 
+$ docker build -t libpostalapi . 
 ```
 
 And then we can  run this image and bind to 4444 port
 
 ```sh
-$ docker run -d --name fridaychallenge -p 4444:4444  fridaychallenge 
+$ docker run -d --name libpostalapi -p 4444:4444  libpostalapi 
 ```
 
 We can now open demo page with test addresses, also we can enter any address to input and parse
