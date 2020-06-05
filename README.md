@@ -1,4 +1,4 @@
-# Friday Challenge Api
+# Libpostal Python Rest Api
 
 This project aims to create a microservice as a rest api that gets concatenated address and returns as a parsed address object.
 
